@@ -67,7 +67,7 @@ int main() {
                 faseDeAtaque(mapa);
                 venceu = verificarVitoria(mapa, missao);
                 if (venceu) {
-                    printf("\n🎉 MISSÃO CUMPRIDA! VOCÊ VENCEU! 🎉\n");
+                    printf("\nMISSÃO CUMPRIDA! VOCÊ VENCEU!\n");
                     opcao = 0;
                 }
                 break;
